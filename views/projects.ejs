@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<%- include('./partials/nav') %>
+</head>
+<body>
+        <% projects.forEach(function(item){ %>
+    <%='Project ID: ' + item.id %>
+    <br/>
+    <%='Project Image: ' + item.image %>
+    <br/>
+    <%='Project Description: ' + item.description %>
+    <br/>
+    <%='Project technologies: ' + item.technologies %>
+    <br/>
+    <%='Project Features: ' + item.features %>
+    <br/>
+    <%='Project Status: ' + item.status %>
+    <br/>
+    <%='Project Reflection: ' + item.reflection %>
+
+    <hr/>
+    
+    <% }) %>
+</body>
+</html>
