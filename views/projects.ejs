@@ -13,16 +13,11 @@
          <div class="cards-container"> 
     <h1><a href="/projects/<%=item.id%>"><%=item.title %></a></h1>
     <img src="<%=item.image %>" alt="Game Image">
-    <h2>Description</h2>
-    <%=item.description %>
-    <h2>Technologies</h2>
-    <%=item.technologies %>
-    <h2>Features</h2>
-    <%=item.features %>
-    <h2>Status</h2>
-    <%=item.status %>
-    <h2>Reflection</h2>
-    <%=item.reflection %>
+    <p>Description: <%=item.description %></p>
+    <p>Technologies: <%=item.technologies %></p>
+    <p>Features: <%=item.features %></p>
+    <p>Status: <%=item.status %></p>
+    <p>Reflection: <%=item.reflection %></p>
     </div>
     
     <% }) %>
