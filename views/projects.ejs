@@ -12,17 +12,17 @@
         <% projects.forEach(function(item, index){ %>
          <div class="cards-container"> 
     <h1><a href="/projects/<%=item.id%>"><%=item.title %></a></h1>
-    <%='Project Image: ' + item.image %>
-    <br/>
-    <%='Project Description: ' + item.description %>
-    <br/>
-    <%='Project technologies: ' + item.technologies %>
-    <br/>
-    <%='Project Features: ' + item.features %>
-    <br/>
-    <%='Project Status: ' + item.status %>
-    <br/>
-    <%='Project Reflection: ' + item.reflection %>
+    <img src="<%=item.image %>" alt="Game Image">
+    <h2>Description</h2>
+    <%=item.description %>
+    <h2>Technologies</h2>
+    <%=item.technologies %>
+    <h2>Features</h2>
+    <%=item.features %>
+    <h2>Status</h2>
+    <%=item.status %>
+    <h2>Reflection</h2>
+    <%=item.reflection %>
     </div>
     
     <% }) %>

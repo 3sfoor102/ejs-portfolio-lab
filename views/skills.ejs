@@ -10,15 +10,14 @@
    
     <% skills.forEach(function(item){ %>
     <div class="cards-container"> 
-    <%='Skill ID: ' + item.id %>
-    <br/>
-    <%='Skill Name: ' + item.name %>
-    <br/>
-    <%='Skill Category: ' + item.category %>
-    <br/>
-    <%='Skill Level: ' + item.level %>
-    <br/>
-    <%=' Skill Description: ' + item.description %>
+    <h2>Skill</h2>
+    <%=item.name %>
+    <h2>Category</h2>
+    <%=item.category %>
+    <h2>Level</h2>
+    <%=item.level %>
+    <h2>Description</h2>
+    <%=item.description %>
     </div>
     <% }) %>
 

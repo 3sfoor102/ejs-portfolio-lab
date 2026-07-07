@@ -58,13 +58,13 @@ const skills = [
 const projects = [
   {
     id: 1,
-    image: '/images/screenshot.png',
-    title: 'Game Project',
+    image: '/images/image.png',
+    title: 'Game Project: Hangman',
     description: 'A browser-based game built with HTML, CSS, and JavaScript.',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     features: [
       'Interactive buttons',
-      'Score tracking',
+      'Interactive Images',
       'Win or lose message'
     ],
     status: 'Completed',
