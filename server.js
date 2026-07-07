@@ -12,6 +12,7 @@ const skills = [
   {
     id: 1,
     name: 'HTML',
+    image: '/images/computer-image.png',
     category: 'Frontend',
     level: 'Beginner',
     description: 'I can use semantic HTML to structure a web page.'
@@ -19,12 +20,14 @@ const skills = [
   {
     id: 2,
     name: 'CSS',
+    image: '/images/computer-image.png',
     category: 'Frontend',
     level: 'Beginner',
     description: 'I can style pages using selectors, colors, spacing, and layout.'
   },
   {
     id: 3,
+    image: '/images/computer-image.png',
     name: 'JavaScript',
     category: 'Programming',
     level: 'Beginner',
@@ -32,6 +35,7 @@ const skills = [
   },
   {
     id: 4,
+    image: '/images/computer-image.png',
     name: 'DOM Manipulation',
     category: 'Frontend',
     level: 'Beginner',
@@ -39,6 +43,7 @@ const skills = [
   },
   {
     id: 5,
+    image: '/images/computer-image.png',
     name: 'Express',
     category: 'Backend',
     level: 'Learning',
@@ -46,6 +51,7 @@ const skills = [
   },
   {
     id: 6,
+    image: '/images/computer-image.png',
     name: 'EJS',
     category: 'Backend',
     level: 'Learning',
@@ -73,7 +79,7 @@ const projects = [
   {
     id: 2,
     title: 'XO Game',
-    image: '/images/screenshot.png',
+    image: '/images/tictactoe.png',
     description: 'A two-player Tic Tac Toe game where users take turns placing X and O.',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     features: [
@@ -87,7 +93,7 @@ const projects = [
   {
     id: 3,
     title: 'Rock Paper Scissors',
-    image: '/images/screenshot.png',
+    image: '/images/rockpaperscissors.jpg',
     description: 'A game where the player competes against the computer.',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     features: [
