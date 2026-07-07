@@ -7,7 +7,9 @@
  <%- include('./partials/nav') %>
 </head>
 <body>
+   
     <% skills.forEach(function(item){ %>
+    <div class="cards-container"> 
     <%='Skill ID: ' + item.id %>
     <br/>
     <%='Skill Name: ' + item.name %>
@@ -17,8 +19,7 @@
     <%='Skill Level: ' + item.level %>
     <br/>
     <%=' Skill Description: ' + item.description %>
-    <hr/>
-    
+    </div>
     <% }) %>
 
     

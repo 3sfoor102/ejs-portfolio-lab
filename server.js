@@ -125,10 +125,14 @@ app.get('/projects', function(req, res){
 }) 
 
 app.get('/projects/:projectId', function(req, res){
-    Number(req.params.projectId)
-    res.render('projects-show.ejs', {
-    })
+    const ID = Number(req.params.projectId)
 
+    res.render('projects-show.ejs', {
+        projectItem: projects[ID],
+        ID: ID,    
+        projects: projects
+
+    })
 }) 
 
 

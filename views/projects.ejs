@@ -7,9 +7,11 @@
 <%- include('./partials/nav') %>
 </head>
 <body>
-        <% projects.forEach(function(item){ %>
-    <%='Project ID: ' + item.id %>
-    <br/>
+
+
+        <% projects.forEach(function(item, index){ %>
+         <div class="cards-container"> 
+    <h1><a href="/projects/<%=item.id%>"><%=item.title %></a></h1>
     <%='Project Image: ' + item.image %>
     <br/>
     <%='Project Description: ' + item.description %>
@@ -21,9 +23,9 @@
     <%='Project Status: ' + item.status %>
     <br/>
     <%='Project Reflection: ' + item.reflection %>
-
-    <hr/>
+    </div>
     
     <% }) %>
+
 </body>
 </html>
